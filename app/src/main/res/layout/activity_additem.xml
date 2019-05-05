@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".additem"
+    android:background="@drawable/gradients"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="@string/addItem"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/colorWhite"
+        app:fontFamily="@font/dancing_script" />
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Item Name"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Item Price"
+        android:id="@+id/etItemPrice"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Image"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:hint="Select Iamge"
+        android:id="@+id/spImage"
+        android:layout_margin="20dp"
+
+        android:background="@android:color/transparent"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Item Description"
+        android:id="@+id/etDes"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/colorWhite"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="ADD ITEM"
+        android:id="@+id/btnAddd"
+        android:layout_margin="20dp"
+        app:fontFamily="@font/dancing_script"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorWhite"
+        />
+    </LinearLayout>
+</ScrollView>

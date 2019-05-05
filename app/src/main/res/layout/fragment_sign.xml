@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    tools:context=".SignFragment"
+    android:background="@drawable/gradients">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/etUsername"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:id="@+id/etPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:id="@+id/etCPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:id="@+id/btnSignup"
+        android:background="@null"
+        />
+
+</LinearLayout>

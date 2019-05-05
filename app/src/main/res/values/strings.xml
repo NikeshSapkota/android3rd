@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Online Clothing </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_itemdesc">itemdesc</string>
+
+    <!-- for activity_addItem-->
+    <string name="addItem">Add Item</string>
+    <string name="selectItem">Select Image</string>
+    <string name="itemName">Item Name</string>
+</resources>
